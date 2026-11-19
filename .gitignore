@@ -1,0 +1,7 @@
+# JDK / Kafka tarballs are downloaded per environment, never committed (size + licensing)
+*.tgz
+*.tar.gz
+.DS_Store
+._*
+# CI workflow stays local, not pushed
+.github/*
